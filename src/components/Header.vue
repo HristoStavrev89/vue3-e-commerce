@@ -9,7 +9,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row items-center justify-between gap-3 md:gap-6">
           <div class="flex justify-between items-center w-full md:w-auto">
-            <a href="/" class="text-2xl font-bold text-pink-600">ShopEase</a>
+            <a href="/" class="text-2xl font-bold text-blue-900">BrickByte</a>
             <button class="md:hidden text-gray-600 hover:text-indigo-600" aria-label="Toggle mobile menu"
               @click="isMobileMenuOpen = !isMobileMenuOpen">
               <Icon icon="mdi:menu" class="w-6 h-6" />
@@ -31,19 +31,19 @@
 
           <!-- Icons -->
           <aside class="flex items-center justify-end space-x-4 w-full md:w-auto">
-            <button class="relative p-2 text-gray-700 hover:text-pink-600" aria-label="Wishlist">
+            <button class="relative p-2 text-gray-700 hover:text-red-600" aria-label="Wishlist">
               <Icon icon="mdi:heart-outline" class="w-5 h-5" />
               <span
-                class="absolute -top-1 -right-1 bg-pink-500 text-white text-xs rounded-full h-5 w-5 flex flex-items justify-center">3</span>
+                class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex flex-items justify-center">3</span>
             </button>
 
-            <button class="relative p-2 text-gray-700 hover:text-pink-600" aria-label="Wishlist">
+            <button class="relative p-2 text-gray-700 hover:text-red-600" aria-label="Wishlist">
               <Icon icon="mdi:cart-outline" class="w-5 h-5" />
               <span
-                class="absolute -top-1 -right-1 bg-pink-500 text-white text-xs rounded-full h-5 w-5 flex flex-items justify-center">5</span>
+                class="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex flex-items justify-center">5</span>
             </button>
 
-            <button class="relative p-2 text-gray-700 hover:text-pink-600" aria-label="Wishlist">
+            <button class="relative p-2 text-gray-700 hover:text-red-600" aria-label="Wishlist">
               <Icon icon="mdi:account-outline" class="w-5 h-5" />
             </button>
           </aside>
@@ -52,19 +52,19 @@
     </section>
 
     <!-- Navbar Links -->
-     <nav class="bg-pink-950" aria-label="Main navigation">
+     <nav class="bg-blue-900" aria-label="Main navigation">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ul class="hidden md:flex justify-center py-3 flex-wrap gap-x-6 text-sm font-medium text-white">
           <li v-for="item in navItems" :key="item.id">
-            <a :href="item.link" class="hover:text-pink-300 transition-colors">{{ item.name }}</a>
+            <a :href="item.link" class="hover:text-blue-200 transition-colors">{{ item.name }}</a>
           </li>
         </ul>
 
         <section v-if="isMobileMenuOpen"
-        class="md:hidden mt-2 bg-white rounded-lg shadow-md p-4 space-y-3 text-[#5D4037] text-center"
+        class="md:hidden mt-2 bg-blue-900 p-4 space-y-3 text-[#000000] text-center"
         aria-label="Mobile navigation">
         <a v-for="item in navItems" :key="item.id" :href="item.link"
-        class="block hover:text-amber-600 text-sm font-medium" v-html="item.name"></a>
+        class="block text-sm font-medium text-white hover:bg-white/10 hover:font-semibold rounded px-2 py-1 transition" v-html="item.name"></a>
       </section>
       </div>
      </nav>
