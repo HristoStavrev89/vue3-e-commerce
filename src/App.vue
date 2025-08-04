@@ -2,6 +2,7 @@
 import Header from './components/Header.vue';
 import Hero from "./components/Hero.vue"
 import Card from "./components/Card.vue"
+import Products from "./components/Products.vue"
 </script>
 
 <template>
@@ -10,8 +11,8 @@ import Card from "./components/Card.vue"
  <!-- <RouterView /> -->
 <Header />
 <Hero />
+<Products />
 
-<Card />
 </template>
 
 

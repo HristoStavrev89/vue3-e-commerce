@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung 970 EVO Plus",
+    "price": 129.99,
+    "description": "Samsung 970 EVO Plus SSD 1TB - M.2 NVMe Interface",
+    "category": "Storage",
+    "discount": 20,
+    "rating": 4.5,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/mz-v8v500bw/gallery/tr-980-nvme-m2-ssd-mz-v8v500bw-thumb-386476734?$UX_EXT1_PNG$"
+  },
+  {
+    "id": 2,
+    "name": "Corsair 64GB DDR4 RAM",
+    "price": 119.99,
+    "description": "Corsair Vengeance LPX 64GB (2 x 32GB) DDR4-3200",
+    "category": "Memory",
+    "discount": 0,
+    "rating": 4.5,
+    "image": "https://m.media-amazon.com/images/I/31Hq8-Z9oWL.jpg"
+  },
+  {
+    "id": 3,
+    "name": "ASUS ROG Strix GeForce RTX 3080",
+    "price": 699.99,
+    "description": "ASUS ROG Strix GeForce RTX 3080 10GB GDDR6X",
+    "category": "GPU",
+    "discount": 0,
+    "rating": 4.3,
+    "image": "https://m.media-amazon.com/images/I/71uLe6XTV4L._AC_SX450_.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Corsair Vengeance 64GB DDR5 RAM",
+    "price": 49.99,
+    "description": "Corsair Vengeance DDR5 RAM 64GB (2x32GB) 6000MHz CL30-36-36-76 1.40V AMD Expo Intel XMP 3.0",
+    "category": "Memory",
+    "discount": 10,
+    "rating": 4.9,
+    "image": "https://m.media-amazon.com/images/I/61-Ag2lc5BL._AC_SX450_.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Intel Core i7-12700K",
+    "price": 379.99,
+    "description": "Intel Core i7-12700K 12-Core 3.6 GHz Processor",
+    "category": "CPU",
+    "discount": 0,
+    "rating": 4.2,
+    "image": "https://embed.contentverticals.de/amazon/images/I/31CTvPn554L._SL500_.jpg"
+  },
+  {
+    "id": 6,
+    "name": "AMD Ryzen 7 5800X",
+    "price": 289.99,
+    "description": "AMD Ryzen 7 5800X 8-Core 16-Thread 3.8 GHz",
+    "category": "CPU",
+    "discount": 20,
+    "rating": 5.0,
+    "image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/674509_643775_04_package_comping.jpg"
+  },
+  {
+    "id": 7,
+    "name": "ASUS TUF Gaming X570-Plus",
+    "price": 189.99,
+    "description": "ASUS TUF Gaming X570-Plus ATX Motherboard",
+    "category": "Motherboard",
+    "discount": 0,
+    "rating": 4.5,
+    "image": "https://m.media-amazon.com/images/I/41JY6WNtY0L.jpg"
+  },
+  {
+    "id": 8,
+    "name": "MSI MPG B550 Gaming Edge",
+    "price": 159.99,
+    "description": "MSI MPG B550 Gaming Edge WiFi ATX Motherboard",
+    "category": "Motherboard",
+    "discount": 0,
+    "rating": 4.7,
+    "image": "https://i.ebayimg.com/00/s/ODAwWDgwMA==/z/ND8AAOSwDnpfuDdO/$_12.JPG?set_id=880000500F"
+  },
+  {
+    "id": 9,
+    "name": "Cooler Master Hyper 212 Black",
+    "price": 39.99,
+    "description": "Cooler Master Hyper 212 Black Edition CPU Air Cooler",
+    "category": "Cooling",
+    "discount": 0,
+    "rating": 4.1,
+    "image": "https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/645009_363168_03_front_comping.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Noctua NH-D15",
+    "price": 99.99,
+    "description": "Noctua NH-D15 Premium CPU Cooler with Dual NF-A15 Fans",
+    "category": "Cooling",
+    "discount": 30,
+    "rating": 4.9,
+    "image": "https://www.hardwarecamp24.de/images/product_images/popup_images/33897_0__20021592_1.jpg"
+  },
+  {
+    "id": 11,
+    "name": "EVGA 750W GQ",
+    "price": 89.99,
+    "description": "EVGA 750W GQ 80+ Gold Semi Modular PSU",
+    "category": "PSU",
+    "discount": 0,
+    "rating": 4.8,
+    "image": "https://avmedia.ams3.cdn.digitaloceanspaces.com/a/3a/a3a94386-b8ed-467e-a4aa-5da5874c3b95.webp"
+  },
+  {
+    "id": 12,
+    "name": "Corsair RM850x",
+    "price": 139.99,
+    "description": "Corsair RM850x 850W 80 PLUS Gold Fully Modular PSU",
+    "category": "PSU",
+    "discount": 0,
+    "rating": 4.8,
+    "image": "https://m.media-amazon.com/images/I/41V4iAOOV8L.jpg"
+  },
+  {
+    "id": 13,
+    "name": "NZXT H510",
+    "price": 74.99,
+    "description": "NZXT H510 Compact ATX Mid-Tower Case",
+    "category": "Case",
+    "discount": 0,
+    "rating": 4.3,
+    "image": "https://i.ebayimg.com/images/g/4PAAAOSwVaJipZOo/s-l640.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Fractal Design Meshify C",
+    "price": 89.99,
+    "description": "Fractal Design Meshify C ATX Mid Tower Case",
+    "category": "Case",
+    "discount": 30,
+    "rating": 4.1,
+    "image": "https://bit-tech.net/media/image/2018/3/3fe59bb0-396f-4a1c-9c74-f2a2a14f31e2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Seagate Barracuda 2TB",
+    "price": 54.99,
+    "description": "Seagate Barracuda 2TB 7200 RPM SATA 6Gb/s Hard Drive",
+    "category": "Storage",
+    "discount": 0,
+    "rating": 4.5,
+    "image": "https://m.media-amazon.com/images/I/51Eo954YScL.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Crucial P3 500GB SSD",
+    "price": 39.99,
+    "description": "Crucial P3 500GB PCIe 3.0 3D NAND NVMe M.2 SSD",
+    "category": "Storage",
+    "discount": 0,
+    "rating": 4.0,
+    "image": "https://techlandbd.com/cache/images/uploads/products/P2362506006/cover_cache_optimize-70.webpg"
+  },
+  {
+    "id": 17,
+    "name": "Gigabyte GeForce RTX 4070",
+    "price": 649.99,
+    "description": "Gigabyte GeForce RTX 4070 Gaming OC 12G",
+    "category": "GPU",
+    "discount": 0,
+    "rating": 3.9,
+    "image": "https://minirate.ch/wp-content/uploads/icecat-images/9fd94fda3faad78f25f467cbe0f23ed0.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Intel Core i5-12400F",
+    "price": 179.99,
+    "description": "Intel Core i5-12400F 6-Core 12-Thread Processor",
+    "category": "CPU",
+    "discount": 15,
+    "rating": 4.3,
+    "image": "https://www.ksonline.com.au/assets/thumbL/BX8071512400F.jpg?20221019110526"
+  },
+  {
+    "id": 19,
+    "name": "G.Skill Trident Z RGB 32GB",
+    "price": 84.99,
+    "description": "G.Skill Trident Z RGB Series 32GB (2 x 16GB) DDR4-3600",
+    "category": "Memory",
+    "discount": 0,
+    "rating": 4.2,
+    "image": "https://image1280.macovi.de/images/product_images/1280/1254437_0__57211100_2813646699.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Be Quiet! Dark Rock Pro 4",
+    "price": 89.99,
+    "description": "Be Quiet! Dark Rock Pro 4, BK022, 250W TDP, CPU Cooler",
+    "category": "Cooling",
+    "discount": 0,
+    "rating": 4.0,
+    "image": "https://cdn.mos.cms.futurecdn.net/TFwytTXCrWDgjsKqazdd8W.png"
+  }
+]
