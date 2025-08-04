@@ -5,6 +5,23 @@ export type Product = {
     description: string;
     discount: number;
     rating: number;
-    category: string;
+    category: CategoryName;
     image: string;
 }
+
+export type CategoryItem = {
+    name: CategoryName;
+    title: string;
+    image: string;
+    alt: string;
+}
+
+export type CategoryName =
+  | "CPU"
+  | "GPU"
+  | "Memory"
+  | "Storage"
+  | "Motherboard"
+  | "PSU"
+  | "Case"
+  | "Cooling";

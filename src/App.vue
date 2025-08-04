@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Header from './components/Header.vue';
 import Hero from "./components/Hero.vue"
-import Card from "./components/Card.vue"
 import Products from "./components/Products.vue"
+import Categories from "./components/Categories.vue"
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import Products from "./components/Products.vue"
 <Header />
 <Hero />
 <Products />
-
+<Categories />
 </template>
 
 

@@ -70,14 +70,28 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
-import Card from './Card.vue';
-import { Product } from '../types/types';
-import db from '../assets/db.json';
+import { Product, CategoryName } from '../types/types';
+import productsData from '../assets/productsData.json';
 
 const currentSlide = ref<number>(0);
 const productsPerPage = ref<number>(4);
 
-const products: Product[] = db;
+const isValidCategory = (value: string): value is CategoryName => {
+  return ["CPU", "GPU", "Memory", "Storage", "Motherboard", "PSU", "Case", "Cooling"].includes(value);
+};
+
+// const products: Product[] = db as Product[];
+
+const products: Product[] = productsData.map((item) => {
+  if (!isValidCategory(item.category)) {
+    throw new Error(`Invalid category: ${item.category}`);
+  }
+
+  return {
+    ...item,
+    category: item.category as CategoryName,
+  };
+});
 
 const totalSlides = computed(() => Math.ceil(products.length / productsPerPage.value));
 
