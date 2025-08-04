@@ -3,7 +3,7 @@
         <div class="container mx-auto px-4">
             <!-- Section Header -->
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-amber-950 mb-3">Explore Our Fragrance Collections</h2>
+                <h2 class="text-3xl font-bold text-blue-950 mb-3">Explore Our Fragrance Collections</h2>
                 <p class="text-lg text-gray-800 wax-2-2xl mx-auto">
                     Discover scents that match your personality
                 </p>
@@ -32,7 +32,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CategoryName, CategoryItem } from '../types/types';
+import { CategoryItem } from '../types/types';
 
 
 const categories: CategoryItem[] = [

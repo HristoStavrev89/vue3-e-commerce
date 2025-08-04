@@ -2,15 +2,15 @@
     <section class="py-12 scroll-mt-20 bg-gray-50" id="products">
         <main class="container mx-auto px-4">
             <header class="flex justify-between items-center mb-8">
-                <h2 class="md:text-3xl text-2xl font-bold text-amber-900">Featured Products</h2>
+                <h2 class="md:text-3xl text-2xl font-bold text-blue-900">Featured Products</h2>
                 <nav class="flex space-x-4" aria-label="Product carousel controls">
                     <button @click="prevSlide"
-                        class="p-2 rounded-full bg-white shadow-md hover:bg-pink-100 text-pink-600 transition-colors"
+                        class="p-2 rounded-full bg-white shadow-md hover:bg-blue-100 text-blue-600 transition-colors"
                         aria-label="Previous slide">
                         <Icon icon="line-md:arrow-small-left" width="24" height="24" />
                     </button>
                     <button @click="nextSlide"
-                        class="p-2 rounded-full bg-white shadow-md hover:bg-pink-100 text-pink-600 transition-colors"
+                        class="p-2 rounded-full bg-white shadow-md hover:bg-blue-100 text-blue-600 transition-colors"
                         aria-label="Next slide">
                         <Icon icon="line-md:arrow-small-right" width="24" height="24" />
                     </button>
@@ -50,7 +50,7 @@
                                         ${{ product.price.toFixed(2) }}
                                        </span>
                                     </div>
-                                    <button class="p-2 bg-pink-950 rounded-full text-white hover:bg-pink-700 tracking-colors"
+                                    <button class="p-2 bg-blue-950 rounded-full text-white hover:bg-blue-700 tracking-colors"
                                     aria-label="Add to cart">
                                     <Icon icon="icon-park-solid:shopping" width="18" height="19" />
                                     </button>
@@ -62,7 +62,7 @@
             </section>
             <nav class="flex justify-center mt-6 space-x-2" aria-label="Carousel pagination">
                 <button v-for="index in totalSlides" :key="index" @click="currentSlide = index - 1"
-                :class="['w-3 h-3 rounded-full', currentSlide === index - 1 ? 'bg-pink-950' : 'bg-gray-400']" />
+                :class="['w-3 h-3 rounded-full', currentSlide === index - 1 ? 'bg-blue-950' : 'bg-gray-400']" />
             </nav>
         </main>
     </section>
