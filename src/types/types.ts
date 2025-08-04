@@ -16,6 +16,17 @@ export type CategoryItem = {
     alt: string;
 }
 
+export type Offer = {
+  id: number;
+  title: string;
+  description: string;
+  discount: string;
+  endDate: string; 
+  code: string;
+  bgColor: string;
+  textColor: string; 
+};
+
 export type CategoryName =
   | "CPU"
   | "GPU"
