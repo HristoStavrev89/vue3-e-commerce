@@ -1,13 +1,14 @@
 <template>
     <div id="offers" class="container scroll-mt-20 mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold text-center mb-2 text-amber-900">Special Offers</h2>
+        <h2 class="text-3xl font-bold text-center mb-2 text-blue-900">Special Offers</h2>
         <p class="text-center text-gray-600 mb-12">
             Take advantage of these limited-time offers
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div v-for="offer in currentOffers" :key="offer.id" :class="[offer.bgColor,
-                'rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105'
+                'rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105',
+                'hover:cursor-pointer'
             ]">
                 <div class="p-6">
                     <div class="flex justify-between items-start mb-4">
@@ -25,12 +26,12 @@
 
                     <div class="bg-white rounded-lg p-4 mb-4">
                         <p class="text-sm text-gray-500 mb-1 ">Use Code</p>
-                        <p class="font-bold font-mono text-lg">{{ offer.code }}</p>
+                        <p class="font-bold font-mono text-lg hover:cursor-default">{{ offer.code }}</p>
                     </div>
 
                     <button :class="[offer.textColor, 'w-full py-3 rounded-lg font-semibold border',
                     offer.textColor.replace('text', 'border'),
-                        'hover:bg-white transition-colors duration-300'
+                        'hover:bg-white hover:cursor-pointer transition-colors duration-300'
                     ]">Claim Offer</button>
                 </div>
             </div>
@@ -50,8 +51,8 @@ const currentOffers = ref<Offer[]>([
         discount: '30%',
         endDate: '2025-08-31',
         code: 'SUMMER30',
-        bgColor: 'bg-amber-200',
-        textColor: 'text-amber-700'
+        bgColor: 'bg-blue-200',
+        textColor: 'text-blue-700'
     },
     {
         id: 2,
@@ -60,7 +61,7 @@ const currentOffers = ref<Offer[]>([
         discount: '25',
         endDate: '2025-09-15',
         code: 'SCHOOL25',
-        bgColor: 'bg-blue-100',
+        bgColor: 'bg-blue-200',
         textColor: 'text-blue-700'
     },
     {
@@ -70,8 +71,8 @@ const currentOffers = ref<Offer[]>([
         discount: '20%',
         endDate: '2025-10-01',
         code: 'AUTUMN20',
-        bgColor: 'bg-orange-100',
-        textColor: 'text-orange-700'
+        bgColor: 'bg-blue-200',
+        textColor: 'text-blue-700'
     }
 ])
 
