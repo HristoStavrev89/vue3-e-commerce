@@ -5,6 +5,7 @@ import Products from "./components/Products.vue"
 import Categories from "./components/Categories.vue"
 import Offers from "./components/Offers.vue"
 import About from "./components/About.vue"
+import Contact from './components/Contact.vue';
 </script>
 
 <template>
@@ -17,6 +18,8 @@ import About from "./components/About.vue"
 <Categories />
 <Offers />
 <About />
+
+<Contact></Contact>
 
 </template>
 
