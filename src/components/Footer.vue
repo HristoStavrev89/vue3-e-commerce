@@ -59,7 +59,7 @@
                  </div>
             </div>
             <div class="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
-                <p>&nbsp; {{ new Date().getFullYear() }} BrickByte. All rights reserved</p>
+                <p>&copy;{{ new Date().getFullYear() }} BrickByte. All rights reserved</p>
                 <div class="flex space-x-6 mt-4 md:mt-0">
                     <Icon v-for="(icon, index) in paymentIcons" :key="index" :icon="icon"
                     class="w-6 h-6" />
